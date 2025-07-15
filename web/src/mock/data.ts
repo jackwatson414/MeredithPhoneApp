@@ -1,7 +1,7 @@
 export const groups = [
-  { id: 'grade9', name: 'Grade 9' },
-  { id: 'football', name: 'Football Team' },
-  { id: 'robotics', name: 'Robotics Club' },
+  { id: 'grade9', name: 'Grade 9', type: 'Grades' },
+  { id: 'football', name: 'Football Team', type: 'Sports' },
+  { id: 'robotics', name: 'Robotics Club', type: 'Clubs' },
 ];
 
 export const posts = [
@@ -13,6 +13,7 @@ export const posts = [
     role: 'Admin',
     createdAt: '2025-07-15T10:00:00Z',
     pinned: true,
+    tags: ['Grades'],
   },
   {
     id: 'p2',
@@ -21,6 +22,7 @@ export const posts = [
     author: 'Coach',
     role: 'Staff',
     createdAt: '2025-07-14T14:30:00Z',
+    tags: ['Sports'],
   },
   {
     id: 'p3',
@@ -29,5 +31,6 @@ export const posts = [
     author: 'Teacher',
     role: 'Teacher',
     createdAt: '2025-07-13T09:15:00Z',
+    tags: ['Clubs', 'STEM'],
   },
 ]; 
