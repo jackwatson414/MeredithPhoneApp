@@ -1,11 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-const dummyGroups = [
-  { id: 'grade9', name: 'Grade 9' },
-  { id: 'football', name: 'Football Team' },
-  { id: 'robotics', name: 'Robotics Club' },
-];
+import { groups as dummyGroups } from '../mock/data';
 
 const Sidebar: React.FC = () => {
   return (
